@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 from datetime import date
 
 
-
 class Przedmiot(models.Model):
     nazwa = models.CharField(max_length=50)
     skrot = models.CharField(max_length=10)
